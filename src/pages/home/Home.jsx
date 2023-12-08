@@ -12,10 +12,10 @@ import "./home.css";
 const Home = () => {
   return (
     <div>
-      <div className="homeNav">
+    
       <Navbar />
       <Header/>
-      </div>
+      
       <div className="homeContainer">
         <Featured/>
         <h1 className="homeTitle">Browse by property type</h1>
